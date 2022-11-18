@@ -1,0 +1,7 @@
+---
+const { size } = Astro.props;
+import logoImg from './icons/logo.svg'
+import {SITE} from '@/config'
+---
+
+<img src={logoImg} alt={SITE.title} width={size} height={size}/>
